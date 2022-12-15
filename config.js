@@ -5,39 +5,39 @@
 //misal gua lupa nambah atau typo benerin aja bre gua pusing njir awokawok 
 
 //Global Owner//
-global.owner = ['6281395861695']  // isi jika perlu
-global.mods = ['6281395861695']   // isi jika perlu
-global.prems = ['6281395861695']  // isi jika perlu
+global.owner = ['6285641142178']  // isi jika perlu
+global.mods = ['6285641142178']   // isi jika perlu
+global.prems = ['6283805685278']  // isi jika perlu
 
 //Nomor Owner & payment//
-global.nameowner = 'TioXd' // isi nama kalian bebas
-global.numberowner = '6281395861695' // isi ini untuk mengendalikan bot
-global.dana = '6281395861695' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '6281395861695' // isi dengan nomor pulsa hp kalian
-global.gopay = '6281395861695'
+global.nameowner = 'KaXel-XD' // isi nama kalian bebas
+global.numberowner = '6285641142178' // isi ini untuk mengendalikan bot
+global.dana = 'Chek Katalog' // isi dengan nomor dana yg kamu punya 
+global.pulsa = 'Chek Katalog' // isi dengan nomor pulsa hp kalian
+global.gopay = 'Chek Katalog'
 
 //Nama Bot & Grouplink//
-global.namebot = 'RTXZY-MD'
-global.gc = 'https://chat.whatsapp.com/D6BZVRSymWaFU28t2lxaO0'
-global.web = 'https://github.com/BOTCAHX' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.instagram = 'https://instagram.com/prm2.0'
+global.namebot = '「 ©Saxia˘Botz 」'
+global.gc = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
+global.web = 'https://bit.ly/SaxiaShop' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.instagram = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
 
 //Tampilan wm Bot dan pesan bot//
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© R-TXZY-MD'
+global.wm = '「 ©Saxia˘Botz 」'
 global.watermark = wm
-global.wm2 = '⫹⫺ R-TXZY-MD'
-global.wm3 = '© R-TXZY-MD'
-global.wm4 = '© 2021/2022'
+global.wm2 = '⫹By⫺ +62 831-1113-6642'
+global.wm3 = '「 ©Saxia˘Botz 」'
+global.wm4 = 'Wa.me/6283111136642'
 global.fla = 'https://botcahx.ddns.net/api/photooxy/harry-potter?text='
-global.wait = '_*Tunggu sedang di proses...*_'
-global.eror = '_*Server Error*_'
-global.benar = 'Benar ✅\n'
-global.salah = 'Salah ❌\n'
-global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
-global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nR-TXZY-MD'
+global.wait = '「 Wait 99% 」Loading...'
+global.eror = '「 ``404 error`` 」'
+global.benar = 'Bєɴαʀ ✅\n'
+global.salah = 'Sαℓαн ❌\n'
+global.stiker_wait = '*┊↬ EStiker sedang dibuat...*'
+global.packname = 'Made In'
+global.author = '🪴┊↬ Saxia˘MD'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
