@@ -6,7 +6,11 @@ let anu = `
 Contact Owner:
 wa.me/${numberowner}
 
-_Itu adalah nomor owner/creator bot_`
+_Itu Nomer Owner. Jangan di spam cug_
+Owner akan menanggapi bila : 
+- Tentang Bot
+- Saran masukan 
+- Sewa bot`
   conn.sendButtonImg(m.chat, fla + teks, anu, instagram, 'Thanks', 'thanks', m) 
 }
 handler.help = ['main']
