@@ -2,7 +2,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
    let ar = ['Owner', 'Donasi']
    let ras = `Halo @${m.sender.split('@')[0]}`
     let sel = `Silahkan Pilih Sub Menu Di Bawah Ini`
-    let rs = `Click Here`
+    let rs = `汉 Click Here`
 const sections = [ {
 	title: `Pilih Salah Satu Menu `,
 	rows: [
