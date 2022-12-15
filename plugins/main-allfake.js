@@ -20,7 +20,7 @@ key: {
 						"jpegThumbnail": fs.readFileSync('./media/thumbnail.jpg') //Gambarnya
 					},
 					"title": wm, //Kasih namalu 
-					"description": "Botcahx", 
+					"description": "「 ©Saxia˘Botz 」", 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
 					"retailerId": "Ghost",
