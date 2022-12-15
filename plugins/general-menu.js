@@ -13,28 +13,28 @@ Agar terap bisa di gunakan dan tidak ada kendala seperti
     let uptime = clockString(_uptime)
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
-    let title = `*© BOTCAHX*`
+    let title = `「©SaxiaV1˘Botz 汉」`
     let tmb = `CLICK HERE ⎙`
     const sections = [ {
 	title: `Aktif Selama ${uptime} || Waktu ${time} WIB`,
 	rows: [
-	{title: `Semua Perintah`, rowId: `.allmenu `},//, description: ``},
-        {title: `MenuV2`, rowId: `.pay `},//, description: ``},
-        {title: `Donasi`, rowId: `#donasi `},//, description: ``},
-        {title: `Script`, rowId: `#sc `},//, description: ``},
-        {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
-        {title: `Website Official`, rowId: `#web `},//, description: ``},
-        {title: `Speed`, rowId: `#speed `},//, description: ``},
-        {title: `List Texpro Maker`, rowId: `#textpro `},//, description: ``},
-        {title: `Info`, rowId: `#info `},//, description: ``},
-        {title: `Creator`, rowId: `#owner `},//, description: ``},
+	{title: `⎙ All Menu`, rowId: `.allmenu `},//, description: ``},
+        {title: `🍁 Menu2`, rowId: `.pay `},//, description: ``},
+        {title: `💰 Donasi`, rowId: `#donasi `},//, description: ``},
+        {title: `🌱 Script`, rowId: `#sc `},//, description: ``},
+        {title: `🧸 Group Official`, rowId: `#gcbot `},//, description: ``},
+        {title: `🎁 Website Official`, rowId: `#web `},//, description: ``},
+        {title: `🏃 Speed`, rowId: `#speed `},//, description: ``},
+        {title: `📜 List Texpro Maker`, rowId: `#textpro `},//, description: ``},
+        {title: `❗ Info`, rowId: `#info `},//, description: ``},
+        {title: `🪪 Creator`, rowId: `#owner `},//, description: ``},
         ]
  } ]
 
 const listMessage = {
   text: title,
   mentions: [m.sender],
-  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan untuk memakai bot bisa tanya Owner yah "-"',
   buttonText: tmb,
   sections
 }
