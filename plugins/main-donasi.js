@@ -6,7 +6,7 @@ let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
 let anu = `Hai 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
+Ayo Dukung Xia agar tetap on dengan :
 ┌〔 Donasi • Emoney 〕
 ├ Dana : ${dana}
 ├ Pulsa : ${pulsa}
@@ -18,7 +18,7 @@ Terimakasih =D
 Contact person Owner:
 wa.me/${numberowner} (Owner)
 
-*donasi via follow ig juga boleh*`
+*Terimakasih yg buat donasi yg pencet doang Fack yu*`
   conn.sendButtonImg(m.chat, fla + teks, anu, instagram, 'Thanks', 'thanks', m) 
 }
 handler.help = ['donasi', 'donate']
