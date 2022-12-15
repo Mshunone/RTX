@@ -2,17 +2,14 @@ let handler = async m => {
 
 let krtu = `Kartu Intro`
 m.reply(`
-╭─── *「 Kartu Intro 」*
-│       
+𝐈𝐍𝐓𝐑𝐎 ‹•════════════❏
+│     *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
 │ *Umur      :* 
-│ *Hobby    :* 
 │ *Kelas      :* 
 │ *Asal         :* 
-│ *Agama    :* 
-│ *Status     :* 
-╰──────────────
+╰═════ WELCOME. ━━━━❏
 `.trim()) 
 }
 handler.command = /^(intro)$/i
