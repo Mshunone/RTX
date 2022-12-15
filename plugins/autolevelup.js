@@ -9,7 +9,7 @@ module.exports = {
 		while (levelling.canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 
 		if (before !== user.level) {
-			let chating = `Congratulations, you have leveled up!
+			let chating = `Congratulations, Kamu naik level >o<!
 *${before}* -> *${user.level}*
 Use *.profile* to check`.trim()
 			m.reply(chating)
