@@ -76,6 +76,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
         }
       }
       chat.antiLink = isEnable
+      break
+      case 'antivirtex':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiVirtex = isEnable
       break 
     case 'antisticker':
       if (m.isGroup) {
@@ -191,24 +200,31 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     default:
       if (!/[01]/.test(command)) return m.reply(`
-List option:
+┌─〔 *Opsi User* 〕
 | welcome
 | delete
-| public
 | antilink
+| antivirtex
+| nyimak
 | antidelete
 | antisticker
-| autosticker
 | autolevelup
 | detect
+| restrict
+|〔 *Opsi Owner* 〕
 | document
+| autolevelup
+| public
 | whitelistmycontacts
 | restrict
-| nyimak
 | autoread
 | pconly
 | gconly
 | swonly
+| clear
+- ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❙❙❘❙❚❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ -
+    ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻
+📜 *TUTORIAL KH DEK*
 Contoh:
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
