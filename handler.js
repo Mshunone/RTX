@@ -20,7 +20,7 @@ module.exports = {
             if (!m) return
             // console.log(m)
             m.exp = 0
-            m.limit = false
+            m.limit = true
             try {
                 let user = global.db.data.users[m.sender]
                 if (typeof user !== 'object') global.db.data.users[m.sender] = {}
@@ -41,7 +41,7 @@ module.exports = {
                     if (!isNumber(user.troopcamp)) user.troopcamp = 0
                     if (!isNumber(user.coin)) user.coin = 0
                     if (!isNumber(user.atm)) user.atm = 0
-                    if (!isNumber(user.limit)) user.limit = 100
+                    if (!isNumber(user.limit)) user.limit = 25
                     if (!isNumber(user.glimit)) user.glimit = 20
                     if (!isNumber(user.tprem)) user.tprem = 0
                     if (!isNumber(user.tigame)) user.tigame = 50
@@ -249,7 +249,7 @@ module.exports = {
                     if (!user.premium) user.premium = false
                     if (!user.premium) user.premiumTime= 0
                     if (!user.role) user.role = 'Newbie ㋡'
-                    if (!('autolevelup' in user)) user.autolevelup = true
+                    if (!('autolevelup' in user)) user.autolevelup = false
                     if (!('lastIstigfar' in user)) user.lastIstigfar = true
                 } else global.db.data.users[m.sender] = {
                     healt: 100,
@@ -264,7 +264,7 @@ module.exports = {
                     exp: 0,
                     coin: 0,
                     atm: 0,
-                    limit: 100,
+                    limit: 25,
                     tigame: 50,
                     lastclaim: 0,
                     money: 0,
@@ -589,7 +589,7 @@ module.exports = {
                     if (xp > 200) m.reply('Ngecit -_-') // Hehehe
                     else m.exp += xp
                     if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                        this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
+                        this.reply(m.chat, `Limit Kamu habis, silahkan beli melalui *${usedPrefix}buy*`, m)
                         continue // Limit habis
                     }
                     if (plugin.level > _user.level) {
@@ -638,7 +638,6 @@ module.exports = {
                                 console.error(e)
                             }
                         }
-                        if (m.limit) m.reply(+ m.limit + ' Limit terpakai')
                     }
                     break
                 }
